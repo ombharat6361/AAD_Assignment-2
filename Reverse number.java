@@ -4,9 +4,10 @@ public class Main {
 
     public static void main(String[] args)
     {
+        //program to reverse a number
         System.out.println("Enter number: ");
         Scanner num=new Scanner(System.in);
-        long n = num.nextLong();//using long to factor in larger numbers
+        long n = num.nextLong();  //using long to factor in larger numbers
         long r,sum=0;
         //looping to extract digits and reverse the number
         while(n>0)
