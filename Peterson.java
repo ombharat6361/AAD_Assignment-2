@@ -6,7 +6,9 @@ public class Main {
 
     public static void main(String[] args)
     {
-        System.out.println("Enter number: ");
+        //Peterson number is a number where the sum of factorials of the individual digits is equal to the original number.
+	//Example: 145
+	System.out.println("Enter number: ");
 	Scanner num=new Scanner(System.in);
         long n = num.nextLong();
         long r,sum=0,temp=n;
@@ -24,7 +26,7 @@ public class Main {
             sum=sum+Fac;
             n=n/10;
         }
-        //Condition to check. 145 is a Peterson number
+        //Condition to check
         if(sum==temp)
         {
             System.out.println(temp+" is a Peterson number");
