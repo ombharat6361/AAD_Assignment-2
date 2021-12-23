@@ -5,6 +5,7 @@ import java.util.Scanner;//for user input
 public class Main {
 
     public static void main(String[] args) {
+        //program to copy all elements of one array into another array
         System.out.println("Enter how long you want the array to be: ");
         Scanner num= new Scanner(System.in);
         int n = num.nextInt();
