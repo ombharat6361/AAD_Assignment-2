@@ -4,6 +4,7 @@ public class Main {
 
     public static void main(String[] args)
     {
+        //A Palindrome number is a number which, when reversed, is equal to the original number
         System.out.println("Enter number: ");
         Scanner num=new Scanner(System.in);
         long n = num.nextLong(); //using long to initialize to factor in larger numbers
