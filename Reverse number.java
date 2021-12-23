@@ -7,7 +7,7 @@ public class Main {
         System.out.println("Enter number: ");
         Scanner num=new Scanner(System.in);
         long n = num.nextLong();//using long to factor in larger numbers
-        long temp=n,r,sum=0;
+        long r,sum=0;
         //looping to extract digits and reverse the number
         while(n>0)
         {
