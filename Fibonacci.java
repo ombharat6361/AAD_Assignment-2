@@ -3,6 +3,7 @@ import java.util.Scanner; //for taking user input
 public class Main {
 
     public static void main(String[] args) {
+	//The Fibonacci sequence is a sequence in which each number is the sum of the two preceding ones
         System.out.println("Enter how long you want the Fibonacci series to be: ");
         Scanner num= new Scanner(System.in);
         int n = num.nextInt();
