@@ -7,7 +7,7 @@ public class Main {
     public static void main(String[] args)
     {
         System.out.println("Enter number: ");
-	    Scanner num=new Scanner(System.in);
+	Scanner num=new Scanner(System.in);
         long n = num.nextLong();
         long r,sum=0,temp=n;
         //first loop for extracting digits
