@@ -15,6 +15,10 @@ public class Main {
         {
             ns=ns+str.charAt(i);
         }
-        System.out.println(ns);
+        System.out.println("Reversed string: "+ns);
+        if(ns.equals(str)) //equals() to compare strings and see if the new string matches the original string
+            System.out.println("\n"+str+" is a palindrome");
+        else
+            System.out.println("\n"+str+" is not a palindrome");
     }
 }
