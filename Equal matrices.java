@@ -5,7 +5,7 @@ import java.util.Scanner;//for user input
 public class Main {
 
     public static void main(String[] args) {
-        //program to add two matrices which are 2D arrays
+        //program to check whether two matrices are equal or not
         System.out.println("Enter the number of rows and columns: ");
         Scanner num = new Scanner(System.in);
         int a = num.nextInt(); //number of rows
