@@ -5,7 +5,7 @@ import java.util.Scanner;//for user input
 public class Main {
 
     public static void main(String[] args) {
-        //program to add two matrices which are 2D arrays
+        //program to wheck whether a matrix is an identity matrix
         System.out.println("Enter the number of rows: ");
         Scanner num = new Scanner(System.in);
         int a = num.nextInt(); //number of rows
@@ -33,11 +33,11 @@ public class Main {
                 if(i==j) //checking if elements are equal
                 {
                     if (ar1[i][j] == 1)
-                        flag = 1;
+                        flag = 1; //variable in conditional statement to check whether the matrix is identity
 
                     else {
-                        flag = 0;
-                        break;
+                        flag = 0; //when flag is 0, the matrix cannot be identity anymore, so the break statement
+                        break;    //breaks out of the loop to prevent further iterations
                     }
                 }
                 else
