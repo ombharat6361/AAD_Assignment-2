@@ -9,7 +9,7 @@ public class Main {
         System.out.println("Enter the string: ");
         Scanner s=new Scanner(System.in);
         String str=s.nextLine();
-        str=str.toLowerCase(Locale.ROOT); //coverting all letters to lowercase
+        str=str.toLowerCase(Locale.ROOT); //converting all letters to lowercase
         String ns=""; //new string which will store the reversed string
         for(int i=str.length()-1;i>=0;i--)
         {
