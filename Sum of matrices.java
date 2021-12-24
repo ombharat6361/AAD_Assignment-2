@@ -6,9 +6,10 @@ public class Main {
 
     public static void main(String[] args) {
 	    //program to add two matrices which are 2D arrays
-        System.out.println("Enter the number of rows and columns: ");
+        System.out.println("Enter the number of rows: ");
         Scanner num = new Scanner(System.in);
         int a = num.nextInt(); //number of rows
+	System.out.println("Enter the number of columns: ");
         int b = num.nextInt(); //number of columns
         int ar1[][]=new int[a][b];
         int ar2[][]=new int[a][b];
