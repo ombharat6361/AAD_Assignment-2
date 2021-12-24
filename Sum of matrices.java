@@ -35,7 +35,7 @@ public class Main {
         {
             for(int j=0;j<b;j++)
             {
-                System.out.print(ar3[i][j]+" ");
+                System.out.print(ar3[i][j]+" "); //printing sum matrix
             }
             System.out.println();
         }
