@@ -6,9 +6,10 @@ public class Main {
 
     public static void main(String[] args) {
         //program to check whether two matrices are equal or not
-        System.out.println("Enter the number of rows and columns: ");
+        System.out.println("Enter the number of rows: ");
         Scanner num = new Scanner(System.in);
         int a = num.nextInt(); //number of rows
+        System.out.println("Enter the number of columns: ");
         int b = num.nextInt(); //number of columns
         int ar1[][]=new int[a][b];
         int ar2[][]=new int[a][b];
@@ -43,8 +44,8 @@ public class Main {
                 {
                     flag=0;
                     break; //using break to exit the loop the moment an element of the first array
-                }          //does not match the corresponding element of the second array
-            }              //doing this makes sure that the loop does not run again and flag remains 0
+                }          //does not match the corresponding element of the second array (hence making flag=0)
+            }              //doing this prevents further iterations and flag remains 0
             if(flag==0)
                 break;     //using this to break out of the outer loop when flag == 0
         }
